@@ -18,7 +18,7 @@ A ogni iterazione:
 
 1. Si sceglie un valore random _x_ tra 0 e 1
 2. Se _x_<_λ_ allora si sceglie l'opzione _surprise me_, altrimenti si sceglie un link a caso di quelli dpresenti nella pagina
-3. Si torma al punto 1
+3. Si torna al punto 1
 
 In genere il valore _λ_ è scelto molto basso per favorire la scelta di un link all'interno della pagina: in effetti questo è il comportamento tipico umano quando si naviga su internet. Ciò porta a visitare le pagine _più popolari_.<br>
 Allo stesso modo è utile che esso non sia troppo basso: se così non fosse rischiereri incappare in cicli o in pagine che non contengono più link uscenti.
