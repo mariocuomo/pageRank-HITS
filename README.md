@@ -35,7 +35,7 @@ _N_ è il numero totale di pagine web e _L_ è il numero totale di link uscenti 
 ---
 
 #### Applicazione dell'algoritmo PageRank al sito web [_mariocuomo.github.io_](https://mariocuomo.github.io/)
-Ho applicato l'algoritmo PageRank al mio sito web per cercare di capire quale fossero le pagine web più popolori.<br>
+Ho applicato l'algoritmo PageRank al mio sito web per cercare di capire quale fossero le pagine web più popolari.<br>
 Ho utilizzato il software [_Gephi_](https://gephi.org/)
 
 Per prima cosa ho realizzato un grafo che rispecchiasse la topologia del sito.<br>
