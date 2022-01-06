@@ -26,7 +26,7 @@ Allo stesso modo è utile che esso non sia troppo basso: se così non fosse risc
 Considerando una pagina _u_ e un insieme di pagine _B_ (pagine che contengono link verso _u_) il PageRank di _u_ è dato da 
 
 <div align="center">  
-<img src="https://latex.codecogs.com/svg.image?PR(u)=\frac{\lambda}{N}&plus;(1-\lambda)\cdot\sum_{\cdot&space;v&space;\in&space;&space;B}{\frac{PR(v)}{L_{v}}}" title="PR(u)=\frac{\lambda}{N}+(1-\lambda)\cdot\sum_{v \in B}{\frac{PR(v)}{L_{v}}}" />
+<img src="https://latex.codecogs.com/svg.image?PR(u)=\frac{\lambda}{N}&plus;(1-\lambda)\cdot\sum_{v&space;\in&space;&space;B}{\frac{PR(v)}{L_{v}}}" title="PR(u)=\frac{\lambda}{N}+(1-\lambda)\cdot\sum_{v \in B}{\frac{PR(v)}{L_{v}}}" />
 </div>
 
 _N_ è il numero totale di pagine web e _L_ è il numero totale di link uscenti dalla pagina.
