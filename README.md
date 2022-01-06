@@ -17,16 +17,16 @@ L'algoritmo considera anche un parametro di tuning: il valore _λ_ (definito _so
 A ogni iterazione:
 
 1. Si sceglie un valore random _x_ tra 0 e 1
-2. Se _x_<_λ_ allora si sceglie l'opzione _surprise me_, altrimenti si sceglie un link a caso di quelli dpresenti nella pagina
+2. Se _x_<_λ_ allora si sceglie l'opzione _surprise me_, altrimenti si sceglie un link a caso di quelli presenti nella pagina
 3. Si torna al punto 1
 
 In genere il valore _λ_ è scelto molto basso per favorire la scelta di un link all'interno della pagina: in effetti questo è il comportamento tipico umano quando si naviga su internet. Ciò porta a visitare le pagine _più popolari_.<br>
-Allo stesso modo è utile che esso non sia troppo basso: se così non fosse rischiereri incappare in cicli o in pagine che non contengono più link uscenti.
+Allo stesso modo è utile che esso non sia troppo basso: se così non fosse rischiereri di incappare in cicli o in pagine che non contengono link uscenti.
 
 Considerando una pagina _u_ e un insieme di pagine _B_ (pagine che contengono link verso _u_) il PageRank di _u_ è dato da 
 
 <div align="center">  
-<img src="https://latex.codecogs.com/svg.image?PR(u)=\frac{\lambda}{N}&plus;(1-\lambda)\cdot\sum_{\cdot&space;v&space;\in&space;&space;B}{\frac{PR(v)}{L_{v}}}" title="PR(u)=\frac{\lambda}{N}+(1-\lambda)\cdot\sum_{\cdot v \in B}{\frac{PR(v)}{L_{v}}}" />
+<img src="https://latex.codecogs.com/svg.image?PR(u)=\frac{\lambda}{N}&plus;(1-\lambda)\cdot\sum_{\cdot&space;v&space;\in&space;&space;B}{\frac{PR(v)}{L_{v}}}" title="PR(u)=\frac{\lambda}{N}+(1-\lambda)\cdot\sum_{v \in B}{\frac{PR(v)}{L_{v}}}" />
 </div>
 
 _N_ è il numero totale di pagine web e _L_ è il numero totale di link uscenti dalla pagina.
@@ -36,9 +36,9 @@ _N_ è il numero totale di pagine web e _L_ è il numero totale di link uscenti 
 
 #### Applicazione dell'algoritmo PageRank al sito web [_mariocuomo.github.io_](https://mariocuomo.github.io/)
 Ho applicato l'algoritmo PageRank al mio sito web per cercare di capire quale fossero le pagine web più popolari.<br>
-Ho utilizzato il software [_Gephi_](https://gephi.org/)
+Ho utilizzato il software [_Gephi_](https://gephi.org/).
 
-Per prima cosa ho realizzato un grafo che rispecchiasse la topologia del sito.<br>
+Per prima cosa ho realizzato un grafo che rispecchia la topologia del sito.<br>
 Il grafo associato è costituito da
 - nodi: sono le pagine web (un nodo per ogni pagina distinta)
 - archi: si ha un arco orientato dal nodo _x_ al nodo _y_ se è presente un link nella pagina rappresentata dal nodo _x_ verso la pagina rappresentata dal nodo _y_.<br>Gli archi sono distinti: se si hanno due link da _x_ a _y_, si hanno due archi da  _x_ a _y_.
