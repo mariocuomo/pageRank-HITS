@@ -110,4 +110,18 @@ Al termine di ogni iterazione si normalizzano gli score nell'intervallo [0,1].
 
 Le entità che presentano i valori più alti sono considerati i _**leader**_ della comunità.
 
+#### Applicazione di HITS al sito web [_mariocuomo.github.io_](https://mariocuomo.github.io/)
+Ho applicato l'algoritmo HITS al mio sito web per cercare di capire quale fossero le pagine _core_.<br>
+Ho utilizzato il software [_Gephi_](https://gephi.org/).
 
+Il grafo realizzato è lo stesso utilizzato nell'applicazione di PageRank.<br>
+Anche per HITS si può decidere di impostare un valore di convergenza _ε_.
+Questi sono i risultati proposti da HITS.
+
+<div align="center">  
+  <img src="https://github.com/mariocuomo/pageRankOfMySite/blob/main/hits.png">
+</div>
+
+La pagina che ha il minor valore di _hub_ è la pagina iniziale; allo stesso tempo ha il valore di Authority più alto.<br>
+In effetti _index.html_ ha un solo link in uscita verso _whoIAm.html_.<br>
+L'alta _authority_ deriva dal fatto che ogni pagina del sito web contiene un riferimento ad essa.
