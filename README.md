@@ -1,6 +1,7 @@
 # PageRank & HITS
 <div align="center">
-  DESCRIZIONE E APPLICAZIONE DEGLI ALGORITMI PAGERANK E HITS
+  <b>DESCRIZIONE E APPLICAZIONE DEGLI ALGORITMI PAGERANK E HITS</b><br>
+  semplice implementazione in <i><a href="https://github.com/mariocuomo/pageRank-HITS/tree/main/script">python</a></i>
 </div>
 
 ### PageRank
