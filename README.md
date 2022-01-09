@@ -50,7 +50,7 @@ Il grafo associato è costituito da
 
 
 <div align="center">  
-  <img src="https://github.com/mariocuomo/pageRankOfMySite/blob/main/website.png" width=800>
+  <img src="https://github.com/mariocuomo/pageRankOfMySite/blob/main/images/website.png" width=800>
 </div>
 
 
@@ -58,7 +58,7 @@ Questa è la topologia a grafo del sito web realizzato con Gephi.<br>
 NOTA: ho considerato solamente link che puntano a pagine del mio sito; riferimenti a pagine esterne sono stati esclusi.
 
 <div align="center">  
-  <img src="https://github.com/mariocuomo/pageRankOfMySite/blob/main/topology.png" width=600>
+  <img src="https://github.com/mariocuomo/pageRankOfMySite/blob/main/images/topology.png" width=600>
 </div>
 
 Ho infine applicato PageRank con il software Gephi.<br>
@@ -66,11 +66,11 @@ I parametri di tuning sono _λ=0.15_ e _ε=0.001_.<br>
 Il parametro _ε_ serve per terminare la computazione dell'algoritmo: a ogni iterazione sono aggiornati i valori di PageRank. Ci si ferma nel momento in cui l'aggiornamento - tra una iterazione e la successiva - è minore di _ε_.
 
 <div align="center">  
-  <img src="https://github.com/mariocuomo/pageRankOfMySite/blob/main/stats.png" width=600>
+  <img src="https://github.com/mariocuomo/pageRankOfMySite/blob/main/images/stats.png" width=600>
 </div>
 
 <div align="center">  
-  <img src="https://github.com/mariocuomo/pageRankOfMySite/blob/main/pageranks.png">
+  <img src="https://github.com/mariocuomo/pageRankOfMySite/blob/main/images/pageranks.png">
 </div>
 
 
@@ -122,7 +122,7 @@ Anche per HITS si può decidere di impostare un valore di convergenza _ε_.
 Questi sono i risultati proposti da HITS.
 
 <div align="center">  
-  <img src="https://github.com/mariocuomo/pageRankOfMySite/blob/main/hits.png">
+  <img src="https://github.com/mariocuomo/pageRankOfMySite/blob/main/images/hits.png">
 </div>
 
 La pagina che ha il minor valore di _hub_ è la pagina iniziale; allo stesso tempo ha il valore di Authority più alto.<br>
