@@ -2,7 +2,7 @@
 
 Di seguito i valori di PageRank, Authority e Hub ottenuti con lo script in python
 <div align="center">  
-  <img src="https://github.com/mariocuomo/pageRank-HITS/blob/main/images/algoPy.png" width=600>
+  <img src="https://github.com/mariocuomo/pageRank-HITS/blob/main/images/algoPy.png">
 </div>
 
 
